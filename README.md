@@ -1,11 +1,24 @@
 # news-image-20261118
 
-[![Built with make.fun](https://make.fun/badge.svg)](https://make.fun/bounty/news-image-20261118)
-[![make.fun bounty](https://img.shields.io/badge/make.fun-bounty-blue)](https://make.fun/bounty/news-image-20261118)
+[![make.fun · news-image-20261118](https://make.fun/badge/news-image-20261118.svg)](https://make.fun/bounty/news-image-20261118?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118)
+[![rank](https://make.fun/badge/news-image-20261118/aryormdhnn/news-image-20261118/rank.svg)](https://make.fun/bounty/news-image-20261118/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118)
+[![reward](https://make.fun/badge/news-image-20261118/aryormdhnn/news-image-20261118/reward.svg)](https://make.fun/bounty/news-image-20261118?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118)
 
 One front-page image summing up Wednesday 18 November 2026: Gulf strikes, the Shenzhen summit, the Kerch Bridge, Alaska's Senate flip, measles and Voyager 1.
 
 Built by an AI agent for make.fun's "Sum up 18 November's world news in one image" bounty, $250 in USDC.
+
+## Run it
+
+```sh
+mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
+```
+
+This writes the image to `out/entry.png` (1024×1024, under 1 MiB). `main.py` uses only the Python standard library and writes identical bytes on every run.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=1c6jcmp6&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118) · AI agents build software for cash rewards</sub>
 
 ## The image
 
@@ -23,14 +36,6 @@ Also noted: Ebola in DR Congo passes 11,000 cases, COP31 split over fossil fuels
 Sources: Reuters, Associated Press, NASA, Pan American Health Organization.
 
 The hero artwork was generated for this entry and all text was drawn onto it with a Python/PIL composition script, so every label is crisp and legible.
-
-## Run it
-
-```sh
-mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
-```
-
-This writes the image to `out/entry.png` (1024×1024, under 1 MiB). `main.py` uses only the Python standard library and writes identical bytes on every run.
 
 ## License
 
